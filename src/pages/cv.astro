@@ -4,89 +4,180 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
-  </div>
-
+  <div class="mb-5"><div class="text-3xl w-full font-bold">Profile</div></div>
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+      Cloud-Native DevOps Engineer with extensive experience in leveraging AWS
+      and Azure cloud platforms for scalable and highly available application
+      deployment. Proficient in Infrastructure as Code (IaC) tools like
+      Terraform and CloudFormation.
+      Skilled in containerization technologies, with expertise in Docker and
+      Kubernetes. Seasoned DevOps practitioner with a track record of optimizing
+      software development lifecycles through robust CI/CD pipelines. 
+      Possesses strong automation skills, with proficiency in Python scripting.
+      Background in .NET and Java EE applications, enabling a deep understanding
+      of software development practices and challenges.
+    </p>
   </div>
-
+  <div class="mb-5"><div class="text-3xl w-full font-bold">Education</div></div>
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Master's degree, Information Technology"
+      subtitle="2017 to 2020 at Virginia Tech, Virginia, United States"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Bachelor of Technology (B.Tech.), Electrical, Electronics and Communications Engineering"
+      subtitle="2003 to 2007 at Graphic Era Deemed to be University, Dehradun, India"
     />
   </div>
-
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Experience</div>
   </div>
-
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="DevOps Consultant at Amazon Web Services (AWS)"
+      subtitle="From February 2021 to Present at Amazon Web Services (AWS), Charlotte, North Carolina, United States"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+
+    <br>
+    <b>Cloud Computing</b>
+    <li>Leveraged AWS Cloud services (EC2, ECS, EKS, S3, Lambda, EFS, etc.)
+      to design and implement scalable, highly available, and cost-effective cloud
+      architectures for clients' applications and workloads.</li> 
+      <li>Implemented robust security measures, including AWS IAM, VPCs, Security
+    Groups, and CloudTrail, to ensure compliance and protect client environments.</li> 
+    <br>
+
+    <b>Containerization</b>
+    <li>Helped customers build robust application platforms on Amazon EKS utilizing
+    open-source tools, ensuring a native Kubernetes developer experience.</li> 
+    <li>Designed and implemented advanced container orchestration strategies
+    using Kubernetes on Amazon EKS and Amazon ECS, ensuring efficient
+    scaling, load balancing, and high availability.</li> 
+    <li>Enabled customers to achieve robust observability using AWS native
+    and open-source tools like OpenSearch, Prometheus, Grafana, and
+    OpenTelemetry for effective monitoring and analysis.</li> 
+    <br>
+
+    <b>DevOps Skills</b>
+    <li>Established automated CI/CD pipelines using AWS CodePipeline, CodeBuild,
+    and CodeDeploy, integrated with GitLab CI/CD, ArgoCD and GitHub Actions,
+    enabling faster and reliable software delivery.</li> 
+    <li>Automated infrastructure provisioning and management using Infrastructure
+    as Code (IaC) tools like Terraform and CloudFormation, enabling consistent
+    and repeatable deployments.</li> 
+    <li>Implemented automated testing, code quality checks, and advanced
+    deployment strategies like blue-green and canary deployments to minimize
+    downtime and reduce risk.</li>  
+    <br>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Lead Application Architect at Humana"
+      subtitle="From August 2018 to February 2021 at Humana, Location Not Specified"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+
+    <br>
+    <b>Continuous Integration and Delivery</b>
+    <li>Developed a robust enterprise solution to integrate continuous testing and
+    continuous performance evaluation into the CI/CD pipelines, enabling early
+    detection of issues and ensuring high-quality software delivery.</li> 
+    <li>Implemented automated testing frameworks and performance monitoring
+    tools, streamlining the testing process and providing real-time insights into
+    application performance.</li> 
+    <br>    
+
+    <b>AIOps and Incident Management</b>
+    <li>Architected a closed-loop incident management process for the
+    organization's AIOps platform, leveraging Ansible for automation, ServiceNow
+    for incident management, and Dynatrace for application performance
+    monitoring.</li> 
+    <li>Designed and implemented an automated incident response workflow,
+    enabling proactive detection, diagnosis, and remediation of issues, minimizing
+    downtime and improving system reliability.</li> 
+    <br>    
+
+    <b>Automation and Self-Healing</b>
+    <li>Led a team of four engineers in developing Ansible runbooks for self-healing
+    and auto-remediation capabilities, empowering the system to autonomously
+    resolve issues and maintain optimal performance.</li> 
+    <li>Collaborated with cross-functional teams to identify common failure scenarios
+    and codify remediation procedures into reusable Ansible playbooks, promoting
+    operational efficiency and reducing manual intervention.</li> 
+    <br>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Application Architect at Humana"
+      subtitle="From March 2015 to August 2018 at Humana, Green Bay, Wisconsin Area"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    <li>Designed, developed, and instrumented a state-of-the-art monitoring system
+    using Dynatrace, OpenView, Splunk, SiteScope, and SolarWinds DPA for
+    comprehensive application monitoring. Migrated applications between domains
+    to meet compliance requirements.</li> 
+    <li>Architected the future state of monitoring, including user experience and
+    mobile platform monitoring. Architected monitoring solutions to reduce MTTR
+    during outages, created dashboards for insights into load, latency, and failure
+    rates.</li> 
+    <li>Implemented automated reporting for infrastructure metrics like CPU,
+    memory, and disk space. Architected alerting solutions for critical services
+    based on baselines, SLAs, and OLAs.</li> 
+    <br>  
+    </TimeLineElement>
+    <TimeLineElement
+      title="Project Lead at Syntel"
+      subtitle="From September 2007 to March 2015 at Syntel, Green Bay, Wisconsin Area"
+    >
+    <li>Led a cross-functional team of 19 members, including onshore and
+    offshore resources, responsible for enhancing existing Rating, Quoting, and
+    Underwriting applications for a prominent healthcare company.</li> 
+    <li>Developed several applications using ASP.NET and Service-Oriented
+    Architecture (SOA) principles, enabling brokers and employers to access
+    services seamlessly.</li> 
+    <li>Designed and developed several SSIS (SQL Server Integration Services)
+    package to perform ETL tasks.</li> 
+    <li>Developed multiple WCF (Windows Communication Foundation) SOAP
+    services to extract data from SQL Server and Mainframe databases, facilitating
+    data integration and consumption by various internal teams.</li> 
+    <li>Conducted code and technical reviews for high-level designs and coding
+    implementations, maintaining quality standards and best practices across the
+    development lifecycle.</li> 
     </TimeLineElement>
   </div>
-
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
-
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="https://www.credly.com/badges/0b491680-bbaf-4a48-958f-d08256bf67e9" target="_blank">HashiCorp Certified: Terraform Associate</a>
+    </li>
+    <li><a href="https://www.credly.com/badges/0052dc8a-25a1-49fe-96a5-e6909b30e81c" target="_blank">AWS Certified Developer – Associate</a></li>
+    <li>
+      <a href="https://www.credly.com/badges/88339114-3372-4009-a437-27f83777d44a" target="_blank">AWS Certified DevOps Engineer – Professional</a>
     </li>
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="https://www.credly.com/badges/8e33e9ab-fad4-434b-a5cd-a38b40d164e2" target="_blank">
+        CKA: Certified Kubernetes Administrator</a>
+    </li>
+    <li>
+      <a href="https://www.credly.com/badges/dac7676c-f951-4f1a-9f0e-de6ed140ad98" target="_blank">
+        AWS Certified Solutions Architect – Associate</a>
     </li>
   </ul>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
-
+  <div class="mb-5"><div class="text-3xl w-full font-bold">Skills</div></div>
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>Amazon Web Services (AWS)</li>
+    <li>Terraform</li>
+    <li>Kubernetes</li>
+    <li>Docker</li>
+    <li>CI/CD</li>
+    <li>Python</li>
+    <li>.NET</li>
+    <li>Java EE</li>
+    <li>Cloud Architecture</li>
+    <li>DevOps</li>
+    <li>Infrastructure as Code</li>
+    <li>Ansible</li>
+    <li>Monitoring</li>
+    <li>Automation</li>
+    <li>Scalability</li>
   </ul>
 </BaseLayout>
